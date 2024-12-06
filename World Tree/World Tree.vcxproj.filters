@@ -28,6 +28,21 @@
     <Filter Include="Source Files\Card\Artifact">
       <UniqueIdentifier>{00e1789f-0619-4fbe-afa1-5b9308b920bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Card\Planeswalker">
+      <UniqueIdentifier>{0f49921f-4f65-490e-ab8a-719a0255a66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Card\Sorcery">
+      <UniqueIdentifier>{a249903d-d687-48cb-84d1-dfaa9690e3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Resources">
+      <UniqueIdentifier>{ad473a61-1681-4b0e-8679-2a163267481a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Card\Land">
+      <UniqueIdentifier>{cd67863d-fd95-4c28-98e0-193f1901a082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{35df8351-44e2-40dd-bfc1-fae43ebd36d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="World Tree.cpp">
@@ -42,41 +57,41 @@
     <ClCompile Include="Source\Card\Instant\Instant.cpp">
       <Filter>Source Files\Card\Instant</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Card\Land\Land.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Card\Planeswalker\Planeswalker.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game Resources\Battlefield.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game Resources\Deck.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game Resources\Dice.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game Resources\Mana.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Player\Hand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Player\Mana_Pool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Player\Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Card\Artifact\Artifact.cpp">
       <Filter>Source Files\Card\Artifact</Filter>
     </ClCompile>
     <ClCompile Include="Source\Card\Enchantment\Enchantment.cpp">
       <Filter>Source Files\Card\Enchantment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Card\Planeswalker\Planeswalker.cpp">
+      <Filter>Source Files\Card\Planeswalker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp">
+      <Filter>Source Files\Card\Sorcery</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game Resources\Battlefield.cpp">
+      <Filter>Source Files\Game Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game Resources\Deck.cpp">
+      <Filter>Source Files\Game Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game Resources\Dice.cpp">
+      <Filter>Source Files\Game Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game Resources\Mana.cpp">
+      <Filter>Source Files\Game Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Card\Land\Land.cpp">
+      <Filter>Source Files\Card\Land</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Hand.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Mana_Pool.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Player.cpp">
+      <Filter>Source Files\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
