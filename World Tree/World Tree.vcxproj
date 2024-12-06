@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Creature.cpp" />
-    <ClCompile Include="Instant.cpp" />
-    <ClCompile Include="Source Files\Card\Card.cpp" />
+    <ClCompile Include="Source\Card.cpp" />
+    <ClCompile Include="Source\Card\Creature\Creature.cpp" />
+    <ClCompile Include="Source\Card\Instant\Instant.cpp" />
     <ClCompile Include="World Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Creature.h" />
-    <ClInclude Include="Card.h" />
-    <ClInclude Include="Instant.h" />
+    <ClInclude Include="Headers\Card.h" />
+    <ClInclude Include="Headers\Creature.h" />
+    <ClInclude Include="Headers\Instant.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
