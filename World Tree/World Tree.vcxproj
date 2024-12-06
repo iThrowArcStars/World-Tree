@@ -127,9 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Creature.cpp" />
     <ClCompile Include="Instant.cpp" />
-    <ClCompile Include="Source Files\Card\Creature\Creature.cpp" />
-    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Source Files\Card\Card.cpp" />
     <ClCompile Include="World Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
