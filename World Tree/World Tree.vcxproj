@@ -129,14 +129,38 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source\Card.cpp" />
+    <ClCompile Include="Source\Card\Artifact\Artifact.cpp" />
     <ClCompile Include="Source\Card\Creature\Creature.cpp" />
+    <ClCompile Include="Source\Card\Enchantment\Enchantment.cpp" />
     <ClCompile Include="Source\Card\Instant\Instant.cpp" />
+    <ClCompile Include="Source\Card\Land\Land.cpp" />
+    <ClCompile Include="Source\Card\Planeswalker\Planeswalker.cpp" />
+    <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp" />
+    <ClCompile Include="Source\Game Resources\Battlefield.cpp" />
+    <ClCompile Include="Source\Game Resources\Deck.cpp" />
+    <ClCompile Include="Source\Game Resources\Dice.cpp" />
+    <ClCompile Include="Source\Game Resources\Mana.cpp" />
+    <ClCompile Include="Source\Player\Hand.cpp" />
+    <ClCompile Include="Source\Player\Mana_Pool.cpp" />
+    <ClCompile Include="Source\Player\Player.cpp" />
     <ClCompile Include="World Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers\Artifact.h" />
+    <ClInclude Include="Headers\Battlefield.h" />
     <ClInclude Include="Headers\Card.h" />
     <ClInclude Include="Headers\Creature.h" />
+    <ClInclude Include="Headers\Deck.h" />
+    <ClInclude Include="Headers\Dice.h" />
+    <ClInclude Include="Headers\Enchantment.h" />
+    <ClInclude Include="Headers\Hand.h" />
     <ClInclude Include="Headers\Instant.h" />
+    <ClInclude Include="Headers\Land.h" />
+    <ClInclude Include="Headers\Mana.h" />
+    <ClInclude Include="Headers\Mana_Pool.h" />
+    <ClInclude Include="Headers\Planeswalker.h" />
+    <ClInclude Include="Headers\Player.h" />
+    <ClInclude Include="Headers\Sorcery.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
