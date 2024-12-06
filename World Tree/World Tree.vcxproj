@@ -128,15 +128,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Land.cpp" />
     <ClCompile Include="Source\Card.cpp" />
+    <ClCompile Include="Source\Card\Artifact\Artifact.cpp" />
     <ClCompile Include="Source\Card\Creature\Creature.cpp" />
+    <ClCompile Include="Source\Card\Enchantment\Enchantment.cpp" />
     <ClCompile Include="Source\Card\Instant\Instant.cpp" />
+    <ClCompile Include="Source\Card\Planeswalker\Planeswalker.cpp" />
+    <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp" />
     <ClCompile Include="World Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers\Artifact.h" />
     <ClInclude Include="Headers\Card.h" />
     <ClInclude Include="Headers\Creature.h" />
+    <ClInclude Include="Headers\Enchantment.h" />
     <ClInclude Include="Headers\Instant.h" />
+    <ClInclude Include="Headers\Land.h" />
+    <ClInclude Include="Headers\Planeswalker.h" />
+    <ClInclude Include="Headers\Sorcery.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
