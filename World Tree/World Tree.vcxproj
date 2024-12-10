@@ -136,12 +136,12 @@
     <ClCompile Include="Source\Card\Land\Land.cpp" />
     <ClCompile Include="Source\Card\Planeswalker\Planeswalker.cpp" />
     <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp" />
-    <ClCompile Include="Source\Game Resources\Battlefield.cpp" />
-    <ClCompile Include="Source\Game Resources\Deck.cpp" />
-    <ClCompile Include="Source\Game Resources\Dice.cpp" />
-    <ClCompile Include="Source\Game Resources\Mana.cpp" />
+    <ClCompile Include="Source\GameResources\Battlefield.cpp" />
+    <ClCompile Include="Source\GameResources\Deck.cpp" />
+    <ClCompile Include="Source\GameResources\Dice.cpp" />
+    <ClCompile Include="Source\GameResources\Mana.cpp" />
     <ClCompile Include="Source\Player\Hand.cpp" />
-    <ClCompile Include="Source\Player\Mana_Pool.cpp" />
+    <ClCompile Include="Source\Player\ManaPool.cpp" />
     <ClCompile Include="Source\Player\Player.cpp" />
     <ClCompile Include="World Tree.cpp" />
   </ItemGroup>
@@ -157,7 +157,7 @@
     <ClInclude Include="Headers\Instant.h" />
     <ClInclude Include="Headers\Land.h" />
     <ClInclude Include="Headers\Mana.h" />
-    <ClInclude Include="Headers\Mana_Pool.h" />
+    <ClInclude Include="Headers\ManaPool.h" />
     <ClInclude Include="Headers\Planeswalker.h" />
     <ClInclude Include="Headers\Player.h" />
     <ClInclude Include="Headers\Sorcery.h" />

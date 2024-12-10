@@ -34,14 +34,14 @@
     <Filter Include="Source Files\Card\Sorcery">
       <UniqueIdentifier>{a249903d-d687-48cb-84d1-dfaa9690e3b2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Game Resources">
-      <UniqueIdentifier>{ad473a61-1681-4b0e-8679-2a163267481a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Card\Land">
       <UniqueIdentifier>{cd67863d-fd95-4c28-98e0-193f1901a082}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Player">
       <UniqueIdentifier>{35df8351-44e2-40dd-bfc1-fae43ebd36d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameResources">
+      <UniqueIdentifier>{ad473a61-1681-4b0e-8679-2a163267481a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -69,29 +69,29 @@
     <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp">
       <Filter>Source Files\Card\Sorcery</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Game Resources\Battlefield.cpp">
-      <Filter>Source Files\Game Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game Resources\Deck.cpp">
-      <Filter>Source Files\Game Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game Resources\Dice.cpp">
-      <Filter>Source Files\Game Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game Resources\Mana.cpp">
-      <Filter>Source Files\Game Resources</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Card\Land\Land.cpp">
       <Filter>Source Files\Card\Land</Filter>
     </ClCompile>
     <ClCompile Include="Source\Player\Hand.cpp">
       <Filter>Source Files\Player</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Player\Mana_Pool.cpp">
+    <ClCompile Include="Source\Player\ManaPool.cpp">
       <Filter>Source Files\Player</Filter>
     </ClCompile>
     <ClCompile Include="Source\Player\Player.cpp">
       <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameResources\Deck.cpp">
+      <Filter>Source Files\GameResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameResources\Battlefield.cpp">
+      <Filter>Source Files\GameResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameResources\Dice.cpp">
+      <Filter>Source Files\GameResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameResources\Mana.cpp">
+      <Filter>Source Files\GameResources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -128,7 +128,7 @@
     <ClInclude Include="Headers\Mana.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Headers\Mana_Pool.h">
+    <ClInclude Include="Headers\ManaPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Headers\Planeswalker.h">
