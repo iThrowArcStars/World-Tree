@@ -15,3 +15,10 @@ void ManaPool::addMana(const std::string& type) {
 		manaPool[type]++;
 	}
 }
+
+int ManaPool::getMana(const std::string& type) const {
+	if (manaPool.find(type) != manaPool.end()) {
+		return manaPool.at(type);
+	}
+	return 0;
+}

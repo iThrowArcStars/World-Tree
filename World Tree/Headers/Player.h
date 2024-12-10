@@ -9,7 +9,9 @@
 class Player {
 public:
 	Player();
-	ManaPool manaPool;
+	ManaPool& getManaPool();
 private:
 	std::string name;
+	ManaPool manaPool;
+	Mana mana;
 };

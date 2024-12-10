@@ -8,6 +8,7 @@ class ManaPool {
 public:
 	ManaPool();
 	void addMana(const std::string& type);
+	int getMana(const std::string& type) const;
 private:
 	std::unordered_map<std::string, int> manaPool;
 };
