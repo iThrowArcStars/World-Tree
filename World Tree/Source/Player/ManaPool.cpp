@@ -31,3 +31,10 @@ int ManaPool::getTotalMana() const {
 	}
 	return totalMana;
 }
+
+std::ostream& operator<<(std::ostream& os, const ManaPool& manaPool) {
+	for (const auto& pair : manaPool.manaPool) {
+		os << pair.first << ": " << pair.second << " ";
+	}
+	return os;
+}

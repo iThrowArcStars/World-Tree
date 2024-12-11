@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../Headers/Player.h"
+#include "../Headers/ManaPool.h"
 
 int main()
 {
@@ -14,12 +15,11 @@ int main()
     mana.addMana(player.getManaPool(), "Green");
     mana.addMana(player.getManaPool(), "Blue");
 
-    // Output the mana values
+    // Output the mana values using the overloaded << operator
     std::cout << "Mana values after adding mana:" << std::endl;
-    std::cout << "Red: " << player.getManaPool().getMana("Red") << std::endl;
-    std::cout << "Green: " << player.getManaPool().getMana("Green") << std::endl;
-    std::cout << "Blue: " << player.getManaPool().getMana("Blue") << std::endl;
-	std::cout << "Total mana: " << player.getManaPool().getTotalMana() << std::endl;
+    std::cout << player.getManaPool() << std::endl;
+
+    std::cout << "Total mana: " << player.getManaPool().getTotalMana() << std::endl;
 
     return 0;
 }
