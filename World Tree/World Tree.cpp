@@ -19,6 +19,7 @@ int main()
     std::cout << "Red: " << player.getManaPool().getMana("Red") << std::endl;
     std::cout << "Green: " << player.getManaPool().getMana("Green") << std::endl;
     std::cout << "Blue: " << player.getManaPool().getMana("Blue") << std::endl;
+	std::cout << "Total mana: " << player.getManaPool().getTotalMana() << std::endl;
 
     return 0;
 }

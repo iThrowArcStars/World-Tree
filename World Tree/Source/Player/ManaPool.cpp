@@ -22,3 +22,12 @@ int ManaPool::getMana(const std::string& type) const {
 	}
 	return 0;
 }
+
+int ManaPool::getTotalMana() const {
+	int totalMana = 0;
+	// This is a range-based for loop that iterates over each key-value pair in the manaPool map.
+	for (const auto& pair : manaPool) {
+		totalMana += pair.second;
+	}
+	return totalMana;
+}
