@@ -93,6 +93,9 @@
     <ClCompile Include="Source\GameResources\Mana.cpp">
       <Filter>Source Files\GameResources</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Card\Land\Land_Cards\Forest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\Card.h">
@@ -138,6 +141,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Headers\Sorcery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Forest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,25 +1,41 @@
 #include <iostream>
-#include "../Headers/Player.h"
 #include "../Headers/ManaPool.h"
+#include "../Headers/Land.h"
+#include "../Headers/Mana.h"
+#include "../Headers/Forest.h"
 
-int main()
-{
-    // Create a Player object
-    Player player;
+int main() {
+    ManaPool manaPool;
 
-    // Create a Mana object
-    Mana mana;
+    // Test adding mana
+    manaPool.addMana("Red", 5);
+    manaPool.addMana("Green", 3);
+    manaPool.addMana("Blue", 2);
+    manaPool.addMana("White", 4);
+    manaPool.addMana("Black", 1);
+    manaPool.addColorless(6);
 
-    // Add mana to the player's ManaPool
-    mana.addMana(player.getManaPool(), "Red");
-    mana.addMana(player.getManaPool(), "Green");
-    mana.addMana(player.getManaPool(), "Blue");
+    // Testing Tapping Lands
+	Forest forest;
+	forest.tap(manaPool);
+	forest.tap(manaPool);
+	forest.untap();
+	forest.tap(manaPool);
 
-    // Output the mana values using the overloaded << operator
-    std::cout << "Mana values after adding mana:" << std::endl;
-    std::cout << player.getManaPool() << std::endl;
 
-    std::cout << "Total mana: " << player.getManaPool().getTotalMana() << std::endl;
+    // Test getting mana
+    std::cout << "Red Mana: " << manaPool.getMana("Red") << std::endl;
+    std::cout << "Green Mana: " << manaPool.getMana("Green") << std::endl;
+    std::cout << "Blue Mana: " << manaPool.getMana("Blue") << std::endl;
+    std::cout << "White Mana: " << manaPool.getMana("White") << std::endl;
+    std::cout << "Black Mana: " << manaPool.getMana("Black") << std::endl;
+    std::cout << "Colorless Mana: " << manaPool.getMana("Colorless") << std::endl;
+
+    // Test total mana
+    std::cout << "Total Mana: " << manaPool.getTotalMana() << std::endl;
+
+    // Test overloaded operator<<
+    std::cout << "Mana Pool: " << manaPool << std::endl;
 
     return 0;
 }

@@ -10,12 +10,39 @@ ManaPool::ManaPool() {
 	manaPool["Black"] = 0;
 }
 
-void ManaPool::addMana(const std::string& type) {
+// This function is used to add mana of any color to the mana pool
+void ManaPool::addMana(const std::string& type, int amount) {
 	if (manaPool.find(type) != manaPool.end()) {
-		manaPool[type]++;
+		manaPool[type] += amount;
 	}
 }
 
+// These functions are used to add mana of a specific color to the mana pool
+void ManaPool::addColorless(int amount) {
+	manaPool["Colorless"] += amount;
+}
+
+void ManaPool::addBlack(int amount) {
+	manaPool["Black"] += amount;
+}
+
+void ManaPool::addBlue(int amount) {
+	manaPool["Blue"] += amount;
+}
+
+void ManaPool::addRed(int amount) {
+	manaPool["Red"] += amount;
+}
+
+void ManaPool::addWhite(int amount) {
+	manaPool["White"] += amount;
+}
+
+void ManaPool::addGreen(int amount) {
+	manaPool["Green"] += amount;
+}
+
+// Getters
 int ManaPool::getMana(const std::string& type) const {
 	if (manaPool.find(type) != manaPool.end()) {
 		return manaPool.at(type);
@@ -32,6 +59,7 @@ int ManaPool::getTotalMana() const {
 	return totalMana;
 }
 
+// Overloaded operators for printing the mana pool
 std::ostream& operator<<(std::ostream& os, const ManaPool& manaPool) {
 	for (const auto& pair : manaPool.manaPool) {
 		os << pair.first << ": " << pair.second << " ";

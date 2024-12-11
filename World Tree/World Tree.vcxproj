@@ -134,6 +134,7 @@
     <ClCompile Include="Source\Card\Enchantment\Enchantment.cpp" />
     <ClCompile Include="Source\Card\Instant\Instant.cpp" />
     <ClCompile Include="Source\Card\Land\Land.cpp" />
+    <ClCompile Include="Source\Card\Land\Land_Cards\Forest.cpp" />
     <ClCompile Include="Source\Card\Planeswalker\Planeswalker.cpp" />
     <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp" />
     <ClCompile Include="Source\GameResources\Battlefield.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="Headers\Deck.h" />
     <ClInclude Include="Headers\Dice.h" />
     <ClInclude Include="Headers\Enchantment.h" />
+    <ClInclude Include="Headers\Forest.h" />
     <ClInclude Include="Headers\Hand.h" />
     <ClInclude Include="Headers\Instant.h" />
     <ClInclude Include="Headers\Land.h" />
