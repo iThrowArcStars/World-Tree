@@ -4,6 +4,8 @@
 #include <string>
 #include <iostream>
 
+class Player; // Forward declaration of the Player class
+
 class ManaPool {
 public:
     ManaPool();
@@ -30,4 +32,6 @@ private:
 
 	// This map is used to store the amount of mana of each type in the mana pool
     std::unordered_map<std::string, int> manaPool;
+
+	friend class Player; // Declare the Player class as a friend to allow access to the manaPool map
 };

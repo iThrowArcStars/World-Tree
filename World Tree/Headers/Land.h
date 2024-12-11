@@ -2,8 +2,9 @@
 #include <string>
 
 #include "ManaPool.h"
+#include "Card.h"
 
-class Land {
+class Land : public Card {
 public:
 	// Constructor
 	Land(const std::string& type); 

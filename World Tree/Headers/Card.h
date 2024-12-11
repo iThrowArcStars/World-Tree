@@ -8,7 +8,7 @@ using namespace std;
 class Card {
 public:
 	Card(); // Constructor
-
+	virtual ~Card() = default; // Destructor
 	void setName(const std::string& val);
 	string getName();
 
