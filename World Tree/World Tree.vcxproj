@@ -135,6 +135,10 @@
     <ClCompile Include="Source\Card\Instant\Instant.cpp" />
     <ClCompile Include="Source\Card\Land\Land.cpp" />
     <ClCompile Include="Source\Card\Land\Land_Cards\Forest.cpp" />
+    <ClCompile Include="Source\Card\Land\Land_Cards\Island.cpp" />
+    <ClCompile Include="Source\Card\Land\Land_Cards\Mountain.cpp" />
+    <ClCompile Include="Source\Card\Land\Land_Cards\Plains.cpp" />
+    <ClCompile Include="Source\Card\Land\Land_Cards\Swamp.cpp" />
     <ClCompile Include="Source\Card\Planeswalker\Planeswalker.cpp" />
     <ClCompile Include="Source\Card\Sorcery\Sorcery.cpp" />
     <ClCompile Include="Source\GameResources\Battlefield.cpp" />
@@ -157,12 +161,16 @@
     <ClInclude Include="Headers\Forest.h" />
     <ClInclude Include="Headers\Hand.h" />
     <ClInclude Include="Headers\Instant.h" />
+    <ClInclude Include="Headers\Island.h" />
     <ClInclude Include="Headers\Land.h" />
     <ClInclude Include="Headers\Mana.h" />
     <ClInclude Include="Headers\ManaPool.h" />
+    <ClInclude Include="Headers\Mountain.h" />
+    <ClInclude Include="Headers\Plains.h" />
     <ClInclude Include="Headers\Planeswalker.h" />
     <ClInclude Include="Headers\Player.h" />
     <ClInclude Include="Headers\Sorcery.h" />
+    <ClInclude Include="Headers\Swamp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
